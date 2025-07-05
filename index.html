@@ -59,70 +59,257 @@
 
   <!-- Menu -->
   <section class="container my-5" id="menu">
-    <h2 class="text-center mb-5">Today's Menu</h2>
 
-    <!-- Breakfast -->
-    <h3 class="mb-3">🍳 Breakfast</h3>
-    <div class="row justify-content-center g-4 mb-5">
-      <div class="col-md-4">
-        <div class="card menu-card p-3">
-          <h5>লুচি & চানা</h5>
-          <p>Fluffy luchis served with spicy chana dal.</p>
-          <p><strong>₹60 (4 pcs)</strong></p>
-          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20order%20Luchi%20Chana%20Breakfast" class="btn btn-outline-success">Order on WhatsApp</a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card menu-card p-3">
-          <h5>সবজি খিচুড়ি</h5>
-          <p>Light moong dal khichuri with seasonal vegetables.</p>
-          <p><strong>₹80</strong></p>
-          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I'd%20like%20to%20order%20Vegetable%20Khichuri" class="btn btn-outline-success">Order on WhatsApp</a>
-        </div>
-      </div>
-    </div>
 
-    <!-- Lunch -->
-    <h3 class="mb-3">🍛 Lunch</h3>
-    <div class="row justify-content-center g-4 mb-5">
-      <div class="col-md-4">
-        <div class="card menu-card p-3">
-          <h5>🐟 Fish Curry Thali</h5>
-          <p>Steamed rice, rohu fish curry, and mixed veg.</p>
-          <p><strong>₹180</strong></p>
-          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20the%20Fish%20Curry%20Thali" class="btn btn-outline-success">Order on WhatsApp</a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card menu-card p-3">
-          <h5>🥬 Shukto & Rice</h5>
-          <p>Traditional bitter curry, rice, dal, and fritters.</p>
-          <p><strong>₹140</strong></p>
-          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20the%20Shukto%20Meal" class="btn btn-outline-success">Order on WhatsApp</a>
-        </div>
-      </div>
-    </div>
+    <!-- Weekly Menu Carousel -->
+    <section class="container my-5" id="menu">
+      <h2 class="text-center mb-4">Weekly Menu</h2>
 
-    <!-- Dinner -->
-    <h3 class="mb-3">🌙 Dinner</h3>
-    <div class="row justify-content-center g-4 mb-5">
-      <div class="col-md-4">
-        <div class="card menu-card p-3">
-          <h5>🍗 Chicken Stew & Bread</h5>
-          <p>Light chicken stew with potato and carrots, served with pav.</p>
-          <p><strong>₹160</strong></p>
-          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20the%20Chicken%20Stew%20Dinner" class="btn btn-outline-success">Order on WhatsApp</a>
+      <div id="weeklyMenuCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Day 1 -->
+          <div class="carousel-item active">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Monday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Paratha</li>
+                    <li>Egg Boil</li>
+                    <li>Seasonal Fruits</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal</li>
+                    <li>Aloo Bhaaja</li>
+                    <li>Rui Machher Jhol</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Lau Dim</li>
+                    <li>Shukto</li>
+                    <li>Aloo Bharta</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 2 -->
+          <div class="carousel-item">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Tuesday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Luchi</li>
+                    <li>Chana Dal</li>
+                    <li>Fruits</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal Tomato Dim</li>
+                    <li>Potol Bhaja</li>
+                    <li>Sorshe Aar Machh</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Begun Pora Bharta</li>
+                    <li>Jhinge Posto</li>
+                    <li>Dal Bharta</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 3 -->
+          <div class="carousel-item">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Wednesday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Ruti Sobji</li>
+                    <li>Egg Boil</li>
+                    <li>Fruits</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal</li>
+                    <li>Posto Aar Machh</li>
+                    <li>Lal Kumro Shaak</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Aloo Diye Chicken</li>
+                    <li>Shukto</li>
+                    <li>Bharta (Mixed)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 4 -->
+          <div class="carousel-item">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Thursday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Luchi</li>
+                    <li>Begun Bhaja</li>
+                    <li>Fruits</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal Tadka</li>
+                    <li>Chingri Palong Shaak</li>
+                    <li>Rice</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Jhinge Posto</li>
+                    <li>Shorshe Machh</li>
+                    <li>Aloo Bharta</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 5 -->
+          <div class="carousel-item">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Friday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Ruti Sobji</li>
+                    <li>Seasonal Fruits</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal</li>
+                    <li>Shukto</li>
+                    <li>Chingri + Shaak</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Posto Aar Machh</li>
+                    <li>Potol Bhaja</li>
+                    <li>Lau Dim</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 6 -->
+          <div class="carousel-item">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Saturday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Paratha</li>
+                    <li>Egg Boil</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal</li>
+                    <li>Aloo Diye Chicken</li>
+                    <li>Mixed Bhaja</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Lal Kumro Shaak</li>
+                    <li>Shorshe Machh</li>
+                    <li>Dal Bharta</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 7 -->
+          <div class="carousel-item">
+            <div class="card p-4">
+              <h4 class="text-center">🌞 Sunday</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>🍳 Breakfast</h5>
+                  <ul>
+                    <li>Luchi</li>
+                    <li>Begun Bhaja</li>
+                    <li>Seasonal Fruits</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🍛 Lunch</h5>
+                  <ul>
+                    <li>Dal Tomato Dim</li>
+                    <li>Chingri + Shaak</li>
+                    <li>Jhinge Posto</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>🌙 Dinner</h5>
+                  <ul>
+                    <li>Shukto</li>
+                    <li>Aloo Bharta</li>
+                    <li>Rui Machher Jhol</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#weeklyMenuCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#weeklyMenuCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-      <div class="col-md-4">
-        <div class="card menu-card p-3">
-          <h5>🍮 Nolen Gur Sandesh</h5>
-          <p>Delicate Bengali sweet made from date palm jaggery.</p>
-          <p><strong>₹60 (2 pcs)</strong></p>
-          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20Nolen%20Gur%20Sandesh" class="btn btn-outline-success">Order on WhatsApp</a>
-        </div>
-      </div>
-    </div>
+    </section>    
+
+    
   </section>
 
   <!-- How It Works -->
@@ -153,5 +340,6 @@
     </p>
   </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
